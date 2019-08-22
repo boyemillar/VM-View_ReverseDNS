@@ -5,7 +5,9 @@ Update Local DNS Servers with the name of your View Horizon Desktop... This allo
 # The Script is Written in AutoIT scripting language and will require the following 
 
 AutoIT software.<br>
-SCiTE Scripting Editor.
+SCiTE Scripting Editor.<br>
+LSRUNASE.exe.<br>
+
 
 # On your VM-View Desktop (Master)
 
