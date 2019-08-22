@@ -41,9 +41,10 @@ $file = FileOpen($RDNSFile , 1)
 	$PhysicalMachineDomain = RegRead("HKEY_CURRENT_USER\Volatile Environment", "ViewClient_Machine_Domain")
 
 #CS ###################################################################################################
-	#####  This section amends the domain name for machines                                       #####
-	#####  It covers situations where all the View desktops are provisioned on one domain         #####
-	#####  but you have physical client machines on multiple separate domains                     #####
+	#####  This section amends the domain name for machines                                   #####
+	#####  It covers situations where all the View desktops are provisioned on one domain     #####
+	#####  but you have physical client machines on multiple separate domains                 #####
+	#####  It is not really required if all your machines are on one domain                   #####
 #CE ###################################################################################################
 
 	Select
