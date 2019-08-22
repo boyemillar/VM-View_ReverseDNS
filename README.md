@@ -1,6 +1,10 @@
 # VM-View_ReverseDNS
 Update Local DNS Servers with the name of your View Horizon Desktop... This allows CUPS to print to local Printer Resources
 
+# The Script is Written in AutoIT scripting language and will require the following 
+
+AutoIT software
+SCiTE Scripting Editor
 
 # On you VM-View Desktop (Master)
 
