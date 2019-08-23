@@ -19,12 +19,12 @@ Opt("TrayMenuMode",1) ;0=append, 1=no default menu, 2=no automatic check, 4=menu
     $file = FileOpen($RDNSFile , 1)
 
 #CS ###################################################################################################
-    #####  Get the Credentials from the Config.ini file                                              #####
+    #####  Get the Credentials from the config.ini file                                              #####
 #CE ###################################################################################################
 
     $inipath = "***Path Windows Shared drive***"
 
-    $ini = $inipath & "Config.ini"
+    $ini = $inipath & "config.ini"
 
     $UN = IniRead( $ini, "Process", "Username", "NotFound")
     $PWD = IniRead( $ini, "Process", "Password", "NotFound")
