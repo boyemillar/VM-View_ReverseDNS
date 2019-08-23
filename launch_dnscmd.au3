@@ -30,7 +30,7 @@ $sType=3
 	$remoteinipath = "***Path Windows Shared drive***"
 
 	;Name of the remote ini file
-	$remoteinifile = $remoteinipath & "PMS.ini"
+	$remoteinifile = $remoteinipath & "Config.ini"
 
 	;Domain suffix
 	$DomainSuffix = IniRead( $remoteinifile, "DC", "DomainSuffix", "NotFound")
